@@ -14,6 +14,7 @@
 		2EB1D9B329024121008EEF09 /* WeatherApp_Story.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2EB1D9B129024121008EEF09 /* WeatherApp_Story.xcdatamodeld */; };
 		2EB1D9B529024123008EEF09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EB1D9B429024123008EEF09 /* Assets.xcassets */; };
 		2EB1D9B829024123008EEF09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EB1D9B629024123008EEF09 /* LaunchScreen.storyboard */; };
+		2EB1D9C029024DE5008EEF09 /* WeartherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB1D9BF29024DE5008EEF09 /* WeartherManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		2EB1D9B429024123008EEF09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EB1D9B729024123008EEF09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2EB1D9B929024123008EEF09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EB1D9BF29024DE5008EEF09 /* WeartherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeartherManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		2EB1D9A729024121008EEF09 /* WeatherApp_Story */ = {
 			isa = PBXGroup;
 			children = (
+				2EB1D9C129024F86008EEF09 /* Modelo */,
 				2EB1D9A829024121008EEF09 /* AppDelegate.swift */,
 				2EB1D9AA29024121008EEF09 /* SceneDelegate.swift */,
 				2EB1D9AC29024121008EEF09 /* ViewController.swift */,
@@ -68,6 +71,14 @@
 				2EB1D9B129024121008EEF09 /* WeatherApp_Story.xcdatamodeld */,
 			);
 			path = WeatherApp_Story;
+			sourceTree = "<group>";
+		};
+		2EB1D9C129024F86008EEF09 /* Modelo */ = {
+			isa = PBXGroup;
+			children = (
+				2EB1D9BF29024DE5008EEF09 /* WeartherManager.swift */,
+			);
+			path = Modelo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +155,7 @@
 				2EB1D9AD29024121008EEF09 /* ViewController.swift in Sources */,
 				2EB1D9A929024121008EEF09 /* AppDelegate.swift in Sources */,
 				2EB1D9B329024121008EEF09 /* WeatherApp_Story.xcdatamodeld in Sources */,
+				2EB1D9C029024DE5008EEF09 /* WeartherManager.swift in Sources */,
 				2EB1D9AB29024121008EEF09 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
