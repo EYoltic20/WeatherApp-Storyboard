@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E6ACFCD2907794C006CCD80 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6ACFCC2907794C006CCD80 /* WeatherData.swift */; };
+		2E6ACFCF29086090006CCD80 /* weatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6ACFCE29086090006CCD80 /* weatherModel.swift */; };
 		2EB1D9A929024121008EEF09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB1D9A829024121008EEF09 /* AppDelegate.swift */; };
 		2EB1D9AB29024121008EEF09 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB1D9AA29024121008EEF09 /* SceneDelegate.swift */; };
 		2EB1D9AD29024121008EEF09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB1D9AC29024121008EEF09 /* ViewController.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E6ACFCC2907794C006CCD80 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		2E6ACFCE29086090006CCD80 /* weatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherModel.swift; sourceTree = "<group>"; };
 		2EB1D9A529024121008EEF09 /* WeatherApp_Story.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp_Story.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EB1D9A829024121008EEF09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EB1D9AA29024121008EEF09 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +81,8 @@
 			isa = PBXGroup;
 			children = (
 				2EB1D9BF29024DE5008EEF09 /* WeartherManager.swift */,
+				2E6ACFCC2907794C006CCD80 /* WeatherData.swift */,
+				2E6ACFCE29086090006CCD80 /* weatherModel.swift */,
 			);
 			path = Modelo;
 			sourceTree = "<group>";
@@ -156,6 +162,8 @@
 				2EB1D9A929024121008EEF09 /* AppDelegate.swift in Sources */,
 				2EB1D9B329024121008EEF09 /* WeatherApp_Story.xcdatamodeld in Sources */,
 				2EB1D9C029024DE5008EEF09 /* WeartherManager.swift in Sources */,
+				2E6ACFCD2907794C006CCD80 /* WeatherData.swift in Sources */,
+				2E6ACFCF29086090006CCD80 /* weatherModel.swift in Sources */,
 				2EB1D9AB29024121008EEF09 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +314,7 @@
 				DEVELOPMENT_TEAM = 789V3BEY84;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WeatherApp_Story/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow in order to acces your location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -334,6 +343,7 @@
 				DEVELOPMENT_TEAM = 789V3BEY84;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WeatherApp_Story/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow in order to acces your location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
